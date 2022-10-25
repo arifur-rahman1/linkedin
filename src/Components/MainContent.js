@@ -11,7 +11,7 @@ const MainContent = () => {
             <div>
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
-          <img src="https://placeimg.com/80/80/people" />
+          <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH8nsjX2hoCRg/profile-displayphoto-shrink_200_200/0/1654679706897?e=1672272000&v=beta&t=HR2iPGVulrUEwJAoGRpjL6UUwju8poB-9mqBvZd6qSE" />
         </div>
       </label>
             </div>
@@ -28,7 +28,7 @@ const MainContent = () => {
         <img src={code} alt="" />
             </div>
             <div style={{ height: "1px" }} className='bg-gray-300 w-full'></div>
-            <div className='flex justify-between'>
+            <div className='flex justify-between lg:ml-4'>
             <div className='mt-1'>
             <FaThumbsUp/></div> <p className='ml-2'> Like</p>
             <div className='mt-1'>

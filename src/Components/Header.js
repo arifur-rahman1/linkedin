@@ -4,15 +4,16 @@ import { FaNetworkWired} from "react-icons/fa";
 import { FaSuitcase} from "react-icons/fa";
 import { FaDiscourse} from "react-icons/fa";
 import { FaBell} from "react-icons/fa";
+import linkedin from '../Asset/linkedin.png'
 
 const Header = () => {
     return (
         <div>
             <div className="navbar bg-base-100">
   <div className="flex-1">
-    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+   <img className='lg:ml-4' style={{width:"8vh"}} src={linkedin} alt="" />
     <div className="form-control invisible lg:visible">
-      <input type="text" placeholder="Search" className="input input-bordered" />
+      <input type="text" placeholder="Search" className="input input-bordered ml-6" />
     </div>
   </div>
   <div className="flex-none gap-2">
@@ -42,7 +43,7 @@ const Header = () => {
     <div className="dropdown dropdown-end">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
-          <img src="https://placeimg.com/80/80/people" />
+          <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH8nsjX2hoCRg/profile-displayphoto-shrink_200_200/0/1654679706897?e=1672272000&v=beta&t=HR2iPGVulrUEwJAoGRpjL6UUwju8poB-9mqBvZd6qSE" />
         </div>
       </label>
       <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
